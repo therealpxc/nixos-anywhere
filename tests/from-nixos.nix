@@ -16,7 +16,7 @@
           oldmachine=None, **kwargs
       ):  # taken from <nixpkgs/nixos/tests/installer.nix>
           start_command = [
-              "${pkgs.qemu_test}/bin/qemu-kvm",
+              "${pkgs.qemu_test}/bin/qemu-system-aarch64",
               "-cpu",
               "max",
               "-m",
